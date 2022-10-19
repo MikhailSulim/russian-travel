@@ -1,0 +1,23 @@
+.root {
+    background-color: #2A2C2F;
+}
+
+.header {
+}
+
+.header__logo {
+}
+
+.header__lang-link {
+    /* font-family: Inter; */
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28;    
+    color: #FFF;
+    text-decoration: none;
+    width: 29px;
+    height: 28px;
+    top: 46px;
+    left: 1203px;
+}
