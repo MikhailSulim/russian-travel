@@ -1,23 +1,48 @@
-.root {
-    background-color: #2A2C2F;
-}
+@import url("../vendor/fonts/inter.css");
+@import url("../vendor/normalize.css");
 
-.header {
-}
+/* page */
+@import url("../blocks/page/page.css");
 
-.header__logo {
-}
+/* header  */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
+@import url("../blocks/header/__lang-list/header__lang-list.css");
+@import url("../blocks/header/__lang-list-item/header__lang-list-item.css");
 
-.header__lang-link {
-    /* font-family: Inter; */
-    position: absolute;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28;    
-    color: #FFF;
-    text-decoration: none;
-    width: 29px;
-    height: 28px;
-    top: 46px;
-    left: 1203px;
+
+
+@import url("");
+@import url("");
+@import url("");
+
+
+
+
+
+/*
+.lead__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+
+
+  text-align: center;
+
+  color: #ffffff;
+} */
+
+
+/* @media screen and (max-width: 1152px ) {
+
 }
+@media screen and (max-width: 896px) {
+
+}
+@media screen and (max-width: 544px) {
+
+} */
