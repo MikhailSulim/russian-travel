@@ -4,6 +4,8 @@
 /* page */
 @import url("../blocks/page/page.css");
 
+@import url("../blocks/content/content.css");
+
 /* header  */
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
@@ -12,29 +14,33 @@
 @import url("../blocks/header/__lang-list/header__lang-list.css");
 @import url("../blocks/header/__lang-list-item/header__lang-list-item.css");
 
+/* lead */
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__caption/lead__caption.css");
+@import url("../blocks/lead/__image/lead__image.css");
+@import url("../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__figure/lead__figure.css");
+
+/* intro */
+@import url("../blocks/intro/__list-digits/intro__list-digits.css");
+@import url("../blocks/intro/__list/intro__list.css");
+@import url("../blocks/intro/__text/intro__text.css");
+@import url("../blocks/intro/__title/intro__title.css");
+@import url("../blocks/intro/intro.css");
+
+/* phto-grid */
+@import url("../blocks/photo-grid/__image/photo-grid__image.css");
+@import url("../blocks/photo-grid/photo-grid.css");
+
 
 
 @import url("");
-@import url("");
-@import url("");
 
 
 
 
 
-/*
-.lead__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
-
-
-  text-align: center;
-
-  color: #ffffff;
-} */
 
 
 /* @media screen and (max-width: 1152px ) {
@@ -46,3 +52,23 @@
 @media screen and (max-width: 544px) {
 
 } */
+
+/*
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .header {
+
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .header {
+
+    }
+  }
+   */
