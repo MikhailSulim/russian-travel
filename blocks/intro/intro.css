@@ -1,9 +1,5 @@
 .intro {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-self: flex-start; */
   max-width: 984px;
-  /* height: 429px; */
   margin: 0 auto;
   padding-bottom: 92px;
   box-sizing: border-box;
